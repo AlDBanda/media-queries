@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      padding: 50px;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .lblock {
+      max-width: 500px;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      margin-top: 0;
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: rgb(116, 116, 123);
+    }
+
+    article {
+      max-width: 230px;
+    }
+
+    article h1 {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    article p {
+      margin-top: 5px;
+      color: rgb(116, 116, 123);
+    }
+
+    .rblock {
+      margin-left: 30px;
+    }
+
+    .cols {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 750px) {
+
+      .rblock {
+        display: flex;
+        margin-left: 30;
+        position: fixed;
+        margin-bottom: 30px;
+      }
+
+      .cols {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 30vh;
+        max-width: 100%;
+      }
+
+      .container {
+        display: block;
+
+      }
+
+      article {
+        font-size: 18px;
+        text-align: center;
+
+      }
+
+      article h1 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class='flex'>
+    <div class='lblock'>
+      <header>
+        <h1>Create your brand, your way. That's our speciality</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus doloribus unde architecto, vitae
+          exercitationem veritatis praesentium ex ab, quos obcaecati soluta quo vel.
+        </p>
+      </header>
+      <div class='cols'>
+        <article>
+          <h1>You know best</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Delectus tenetur obcaecati
+            neque autem, accusamus
+            consequatur voluptate.
+          </p>
+        </article>
+        <article>
+          <h1>You know best</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Delectus tenetur obcaecati
+            neque autem, accusamus
+            consequatur voluptate.
+          </p>
+        </article>
+        <article>
+          <h1>You know best</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Delectus tenetur obcaecati
+            neque autem, accusamus
+            consequatur voluptate.
+          </p>
+        </article>
+        <article>
+          <h1>You know best</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Delectus tenetur obcaecati
+            neque autem, accusamus
+            consequatur voluptate.
+          </p>
+        </article>
+      </div>
+    </div>
+    <img class='rblock' src='../images/food-table.png' />
+  </section>
+</body>
+
+</html>
